@@ -1,0 +1,41 @@
+<head>
+    <link href="/styles.css" rel="stylesheet">
+  </head>
+      <table>
+              <tr><td id=h1 colspan="3">CSS Tables <br>Cheat Sheet
+              </td></tr>
+          <tr>
+            <td class="column-headline" id="left">Tag</td>
+            <td class="column-headline" id="center">Name</td>
+            <td class="column-headline" id="right">Description</td>
+          </tr>
+          <tr>
+            <td>&lt;table&gt;</td>
+            <td>Table</td>
+            <td>Applies to the entire table</td>
+          </tr>
+          <tr>
+            <td>&lt;thead&gt;</td>
+            <td>Table header</td>
+            <td>Holds the &lt;th&gt; tag where you use colspan=""</td>
+          </tr>
+          <tr>
+            <td>&lt;tr&gt;</td>
+            <td>Table row</td>
+            <td>Holds table data (aka cells) from left (top) to right (right)</td>
+          </tr>
+          <tr>
+            <td>&lt;td&gt;</td>
+            <td>Table data</td>
+            <td>This is where the text content actually goes</td>
+          </tr>
+          <tr>
+            <td>&lt;tfoot&gt;</td>
+            <td>Table footer</td>
+            <td>Similar to &lt;thead&gt;, also contains &lt;th&gt;</td>
+          </tr>
+          <tfoot>
+            <th id="foot" colspan="3">Created by Aimee Beck, Jan 25, 2022</th>
+            </tfoot> 
+      </table>
+</html>
